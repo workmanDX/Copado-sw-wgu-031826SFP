@@ -29,6 +29,11 @@
                 <default>false</default>
                 <label>Australia</label>
             </value>
+            <value>
+                <fullName>South Korea</fullName>
+                <default>false</default>
+                <label>South Korea</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>
