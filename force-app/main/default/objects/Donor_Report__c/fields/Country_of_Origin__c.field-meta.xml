@@ -34,6 +34,11 @@
                 <default>false</default>
                 <label>South Korea</label>
             </value>
+            <value>
+                <fullName>Taiwan</fullName>
+                <default>false</default>
+                <label>Taiwan</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>
