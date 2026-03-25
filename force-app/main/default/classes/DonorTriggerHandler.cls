@@ -1,5 +1,7 @@
 public with sharing class DonorTriggerHandler {
-    public DonorTriggerHandler() {
-        Donor_Report__c[] reports = [SELECT Id, Name FROM Donor_Report__c];
+    public static void handleAfterInsert(Donor_Report__c[] reports) {
+        for(Donor_Report__c report : reports){
+            report.Country_of_Origin__c = 'United States';
+        }
     }
 }
